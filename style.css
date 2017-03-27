@@ -1,0 +1,64 @@
+body{
+	background-color:  #f2f2f2;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: 	#696969;
+	background-image: url("https://d13yacurqjgara.cloudfront.net/users/625066/screenshots/1669629/preview.gif");
+	background-position: center;
+	
+
+
+
+}
+div.head{
+	background-color:	#E0FFFF;
+    background: center
+	width: 500px;
+	height: 200px;
+	margin: 9% ;
+	border:5%  ;
+	border-color: black;
+	text-align: center;
+	font-size: 2em;
+	padding-left: : 10%; 
+	
+
+
+}
+
+div.body{
+	background-color:#E0FFFF;
+	background-position: : float	;
+	width: cover;
+	height: 300px;
+	margin: 9% ;
+	border:5%  ;
+	border-color: white;
+	text-align: center;
+	font-size: 1.5em;
+	padding-left: : 10%; 
+}
+div.links{
+	background-color:	#E0FFFF;
+	background-position: : float ;
+	width: cover;
+	height: 200x;
+	margin: 9% ;
+	border:5%  ;
+	border-color: black;
+	text-align: center;
+	font-size: 1.5em;
+	padding-left: : 10%; 
+}
+div.table{
+	background-color: 	#E0FFFF;
+	background-position: : float ;
+	width: cover;
+	height: 200px;
+	margin: 9% ;
+	border:5%  ;
+	border-color: white;
+	text-align: center;
+	font-size: 1.5em;
+	padding-left: : 10%; 
+
+}
