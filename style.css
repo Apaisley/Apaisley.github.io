@@ -1,7 +1,7 @@
 body{
 	background-color:  #f2f2f2;
 	font-family: "Comic Sans MS", cursive, sans-serif;
-	color: 	#696969;
+	color: 		white;
 	background-image: url("https://d13yacurqjgara.cloudfront.net/users/625066/screenshots/1669629/preview.gif");
 	background-position: center;
 	
@@ -10,7 +10,7 @@ body{
 
 }
 div.head{
-	background-color:	#E0FFFF;
+	background-color:	;
     background: center
 	width: 500px;
 	height: cover;
@@ -20,6 +20,7 @@ div.head{
 	text-align: center;
 	font-size: 2em;
 	padding-left: : 10%; 
+	float: center;
 
 	
 
@@ -27,7 +28,7 @@ div.head{
 }
 
 div.body{
-	background-color:#E0FFFF;
+	background-color:;
 	background-position: : float	;
 	width: cover;
 	height: 300px;
@@ -39,7 +40,7 @@ div.body{
 	padding-left: : 10%; 
 }
 div.links{
-	background-color:	#E0FFFF;
+	background-color:	;
 	background-position: : float ;
 	width: cover;
 	height: 200x;
@@ -52,7 +53,7 @@ div.links{
 	display: float;
 }
 div.table{
-	background-color: 	#E0FFFF;
+	background-color: ;
 	background-position: : float ;
 	width: cover;
 	height: 200px;
