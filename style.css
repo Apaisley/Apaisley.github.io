@@ -1,19 +1,20 @@
 body{
-	background-color:  #f2f2f2;
+	background-color:  grey;
 	font-family: "Comic Sans MS", cursive, sans-serif;
-	color: 		white;
-	background-image: url("http://www.gifimagesdownload.com/wp-content/uploads/2017/02/free-hd-gif-278.gif");
+	color: white;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/8c/3c/c1/8c3cc1d5271a13a40c65c76b145473d7.png");
 	background-position: center;
+	background-size: 100%;
 	
 
 
 
 }
 div.head{
-	background-color:	;
+	background-color:;
     background: center
 	width: 500px;
-	height: cover;
+	/*height: cover;*/
 	margin: 9% ;
 	border:5%  ;
 	border-color: black;
@@ -28,10 +29,10 @@ div.head{
 }
 
 div.body{
-	background-color:;
-	background-position: : float	;
+	background-color:  ;
+	background-position: float;
 	width: cover;
-	height: 300px;
+	height: auto;
 	margin: 9% ;
 	border:5%  ;
 	border-color: white;
@@ -40,23 +41,23 @@ div.body{
 	padding-left: : 10%; 
 }
 div.links{
-	background-color:	;
-	background-position: : float ;
+	background-color: 	;
+	background-position: float ;
 	width: cover;
-	height: 200x;
+	height: auto;
 	margin: 9% ;
 	border:5%  ;
 	border-color: black;
-	text-align: left;
+	text-align: center;
 	font-size: 1.5em;
 	padding-left: : 10%; 
 	display: float;
 }
 div.table{
 	background-color: ;
-	background-position: : float ;
+	background-position: float;
 	width: cover;
-	height: 200px;
+	height: auto;
 	margin: 9% ;
 	border:5%  ;
 	border-color: white;
