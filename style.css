@@ -1,68 +1,145 @@
+head{ color: red;
+
+
+
+}
 body{
-	background-color:  grey;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: #FFA726;
+	font-family: verdana;
+	font: 2.7vw;
 	color: white;
-	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/8c/3c/c1/8c3cc1d5271a13a40c65c76b145473d7.png");
-	background-position: center;
-	background-size: 100%;
-	
+	/*background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9c/db/2b/9cdb2b9360c7fed4ba451025e964b54b.gif");*/
+	background-size: cover;
+	background-image: no-repeat;
+	position: center;
+	text-orientation: center: fixed;
+	/*margin: 5%;*/
+	/*padding: 5%;*/
+
 
 
 
 }
 div.head{
+	background-image: url("https://s-media-cache-ak0.pinimg.com/736x/03/95/6f/03956fed74537b3d7b0858e9a814748d.jpg");
+	background-image: height : 40%;
+	background-image: cover;
+	background-image: auto;
+	font-family: ;
 	background-color:;
     background: center
-	width: 500px;
+	width: cover;
 	/*height: cover;*/
-	margin: 9% ;
-	border:5%  ;
+	background-position: fixed top;
 	border-color: black;
 	text-align: center;
-	font-size: 2em;
+	font-size: 2.7vw;
 	padding-left: : 10%; 
 	float: center;
-
+	height: 30%;
 	
 
 
 }
 
 div.body{
-	background-color:  ;
-	background-position: float;
-	width: cover;
+	background: height : 40%;
+	background-color:  #00695C;	
+	width: auto;
+	height: 400px: 40%;
+	/*margin: 2.1% ;*/
+	/*border:2.5%  ;*/
+	border-color: white;
+	text-align: center: ;
+	float: center;
+	font-size: 2.78vw;
+	padding-left: : 10%; 
+	position: fixed-top;
+	position: relative;
+
+
+}
+
+
+
+}
+div.links a {
+/*background-color:#8A0707;	*/
+	width: auto;
 	height: auto;
-	margin: 9% ;
-	border:5%  ;
 	border-color: white;
 	text-align: center;
-	font-size: 1.5em;
-	padding-left: : 10%; 
+	font-size: 2em;
+	display: inline-block;
+
 }
-div.links{
-	background-color: 	;
-	background-position: float ;
-	width: cover;
-	height: auto;
-	margin: 9% ;
-	border:5%  ;
-	border-color: black;
-	text-align: center;
-	font-size: 1.5em;
-	padding-left: : 10%; 
-	display: float;
+div.links a:hover {
+	color: red;
 }
-div.table{
-	background-color: ;
-	background-position: float;
-	width: cover;
-	height: auto;
-	margin: 9% ;
-	border:5%  ;
-	border-color: white;
-	text-align: center;
-	font-size: 1.5em;
-	padding-left: : 10%; 
+	
+}
+.wrapper{
+  width: 100%;
+  height:auto;
+  max-width: 1600px;
+  margin: px auto;
+}
+
+h1{
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  font-size: 48px;
+}
+
+.panels{
+  list-style-type: none;
+  padding: 0;
+}
+
+.panels li{
+  position: relative;
+  width: 25%;
+  margin: 1;
+  display: block;
+  box-sizing: border-box;
+  float: left;
+}
+
+.panels li div{
+ 
+  width: 100%;
+  padding: 10% 0;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 0;
+  cursor: pointer;
+}
+
+
+/*// ANIMATION STYLES //*/
+
+.panels div.back{
+	transform: rotateX(90deg);
+}
+.panels div.front{
+	position: absolute;
+}
+.panels li:hover div.front{
+	animation: twirl 0.7s ease-in forwards;
+}
+.panels li:hover div.back{
+	animation: twirl 0.7s ease-in forwards reverse;
+}
+@keyframes twirl {
+	0%{transform: rotateX(0deg)}
+	100%{transform: rotateX(90deg)}
+}
+@media only screen and (max-width: 320px) {
+
+   body { font-size: 2em; }
 
 }
